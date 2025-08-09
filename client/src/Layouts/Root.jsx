@@ -10,7 +10,7 @@ const Root = () => {
 
       <Navber setDarkMode={setDarkMode} darkMode={darkMode} />
 
-      <div className="w-full h-full dark:bg-[#0F172A]">
+      <div className="w-full dark:bg-[#0F172A]">
         <Outlet />
       </div>
     </div>

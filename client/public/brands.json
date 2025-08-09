@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "brandName": "Apple",
+    "imageURL": "https://i.ibb.co.com/tTyZH7FD/apple.png"
+  },
+  {
+    "id": 2,
+    "brandName": "Asus",
+    "imageURL": "https://i.ibb.co.com/XZ1cYcFg/asus.png"
+  },
+  {
+    "id": 3,
+    "brandName": "Google",
+    "imageURL": "https://i.ibb.co.com/YBSnL9RG/google.webp"
+  },
+  {
+    "id": 4,
+    "brandName": "HP",
+    "imageURL": "https://i.ibb.co.com/ymvGsYpy/hp.png"
+  },
+  {
+    "id": 5,
+    "brandName": "Huawei",
+    "imageURL": "https://i.ibb.co.com/tP8Fh3wN/Huawei.jpg"
+  },
+  {
+    "id": 6,
+    "brandName": "Intel",
+    "imageURL": "https://i.ibb.co.com/d4CcnMNM/intel.png"
+  },
+  {
+    "id": 7,
+    "brandName": "LG",
+    "imageURL": "https://i.ibb.co.com/dszGCJ9g/lg.png"
+  },
+  {
+    "id": 8,
+    "brandName": "Microsoft",
+    "imageURL": "https://i.ibb.co.com/hG1xVsK/Microsoft.jpg"
+  },
+  {
+    "id": 9,
+    "brandName": "Panasonic",
+    "imageURL": "https://i.ibb.co.com/6RkyfYmq/Panasonic.jpg"
+  },
+  {
+    "id": 10,
+    "brandName": "Samsung",
+    "imageURL": "https://i.ibb.co.com/8DkfLpnn/samsung.jpg"
+  }
+
+]
