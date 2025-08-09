@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BrandCard from "../components/cards/BrandCard";
 import Hero from "../components/header/Hero";
+import Footer from "../components/Footer/Footer";
 
 
 const HomePage = () => {
@@ -36,6 +37,11 @@ const HomePage = () => {
                         <BrandCard key={brand.id} brand={brand} />
                     ))}
                 </div>
+            </div>
+
+            {/* footer */}
+            <div>
+                <Footer />
             </div>
         </div>
     );
