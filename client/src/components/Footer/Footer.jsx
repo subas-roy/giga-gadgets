@@ -6,7 +6,7 @@ const Footer = () => {
       {/* Newsletter */}
       <div className="bg-gradient-to-r from-[#F9F3F0] from-10% via-[#FCE7DC] via-30% to-[#F9F3F0] to-90% dark:bg-gradient-to-r dark:from-[#f2f2d8] dark:from-10% dark:via-[#FCE7DC] dark:via-30% dark:to-[#fae1d4] gadgetContainer">
         <div className="flex flex-col gap-4 lg:flex-row justify-between items-center py-4">
-          <div className="flex gap-2 ">
+          <div className="flex gap-2">
             <span className="text-3xl text-[#FF497C]">
               <i className="bx bxs-envelope"></i>
             </span>
@@ -34,8 +34,8 @@ const Footer = () => {
       {/* footer */}
 
       <div>
-        <footer className="bg-white dark:bg-gray-900">
-          <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <footer className="bg-white dark:bg-gray-900 gadgetContainer">
+          <div className="mx-auto w-full p-4 py-6 lg:py-8">
             <div className="md:flex md:justify-between">
               <div className="mb-6 md:mb-0">
                 <Link to='/' className="flex items-center">
