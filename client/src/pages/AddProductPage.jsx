@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
-const AddProductPage = () => {
-  const update = false;
+const AddProductPage = ({ update }) => {
   const [brands, setBrands] = useState([]);
   useEffect(() => {
     fetch("/brands.json")
@@ -18,7 +17,10 @@ const AddProductPage = () => {
               <i className="bx bxs-alarm-add"></i>
             </span>
             <span className="dark:text-white">
-              {update ? 'Update' : 'Add'} Your <span className="text-[#FF497C]">Product</span>
+              <span className="text-[#FF497C]">
+                {update ? "Update " : "Add "}
+              </span>
+              Your Product
             </span>
           </p>
         </div>
@@ -36,7 +38,10 @@ const AddProductPage = () => {
                 name="name"
               />
 
-              <label className="block mt-4 mb-2 dark:text-white" htmlFor="brand">
+              <label
+                className="block mt-4 mb-2 dark:text-white"
+                htmlFor="brand"
+              >
                 Brand Name
               </label>
               <select
@@ -56,7 +61,10 @@ const AddProductPage = () => {
                 ))}
               </select>
 
-              <label className="block mt-4 mb-2 dark:text-white" htmlFor="price">
+              <label
+                className="block mt-4 mb-2 dark:text-white"
+                htmlFor="price"
+              >
                 Price
               </label>
               <input
@@ -102,7 +110,10 @@ const AddProductPage = () => {
                 <option value="camera">Camera</option>
               </select>
 
-              <label className="block mt-4 mb-2 dark:text-white" htmlFor="rating">
+              <label
+                className="block mt-4 mb-2 dark:text-white"
+                htmlFor="rating"
+              >
                 Rating
               </label>
               <input
