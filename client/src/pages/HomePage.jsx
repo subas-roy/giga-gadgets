@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import BrandCard from "../components/cards/BrandCard";
+import BrandCard from "../components/Cards/BrandCard";
 import Hero from "../components/header/Hero";
 
 // image
@@ -9,7 +9,6 @@ import choose3 from "../assets/whyChoose/3.webp";
 import choose4 from "../assets/whyChoose/4.webp";
 import choose5 from "../assets/whyChoose/5.webp";
 import ProductCard from "../components/Cards/ProductCard";
-
 
 const HomePage = () => {
     const [brands, setBrands] = useState([]);
@@ -37,9 +36,7 @@ const HomePage = () => {
                 </div>
 
                 {/* grid grid-cols-5 gap-4  dark:bg-[#0F172A] */}
-                <div className="pb-10  grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3  xl:grid-cols-5 gap-5  mt-10 w-full ">
-
-
+                <div className=" grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3  xl:grid-cols-5 gap-5  mt-10 w-full ">
                     {brands?.map((brand) => (
                         <BrandCard key={brand.id} brand={brand} />
                     ))}
@@ -61,7 +58,7 @@ const HomePage = () => {
                     </div>
 
                     {/* Product container */}
-                    <div className="grid grid-cols-4 gap-4 mt-10">
+                    <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1  gap-4 mt-10">
                         <ProductCard />
                         <ProductCard />
                         <ProductCard />
